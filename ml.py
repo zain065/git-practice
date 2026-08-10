@@ -38,8 +38,8 @@ score = r2_score(y_test, predictions)
 print("R² Score:", score)
 
 # Predict new value
-new_prediction = model.predict([[10]])
+new_prediction = model.predict([[6.5]])
 
-print("Predicted marks for 10 hours:", new_prediction)
+print("Predicted marks for 6.5gi hours:", new_prediction)
 print("Slope (Coefficient):", model.coef_)
 print("Intercept:", model.intercept_)
